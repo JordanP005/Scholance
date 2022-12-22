@@ -107,14 +107,13 @@ function App() {
       <section className="footer">
         <div className="footer-box">
           {" "}
-          <img className="footer-img" src="images/logo.png" alt="logo" />
+          <img className="footer-img" src="images/logo.PNG" alt="logo" />
           <ul className="footer-tags">
             <li>Services</li>
             <li>Projects</li>
             <li>About</li>
           </ul>
         </div>
-
         <div className="footer-cta">
           <button className="cta-button">Signup</button>
           <button className="cta-button">Login</button>
