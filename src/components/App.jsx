@@ -7,7 +7,6 @@ function App() {
     setHamState((prevState) => {
       return !prevState;
     });
-    console.log(hamState);
   }
 
   return (
@@ -102,6 +101,76 @@ function App() {
               time of each task.
             </p>
           </div>
+        </div>
+      </section>
+      <section className="subscription">
+        <div className="sub-box">
+          <div className="sub-top">
+            <p className="sub-header-free">Free</p>
+            <div className="sub-price">
+              <h1>$0</h1>
+              <p>/month</p>
+            </div>
+            <br />
+          </div>
+
+          <ul>
+            <li>
+              <img src="images/check-brown.svg" /> <p>Access to jobs</p>
+            </li>
+            <li>
+              <img src="images/check-brown.svg" /> <p>Track hours</p>
+            </li>
+            <li>
+              <img src="images/check-brown.svg" /> <p>Recieve feedback</p>
+            </li>
+            <li>
+              <img src="images/check-grey.svg" />{" "}
+              <p>Early access to listings</p>
+            </li>
+            <li>
+              <img src="images/check-grey.svg" /> <p>High priority posts</p>
+            </li>
+          </ul>
+          <div className="sub-button">Choose Subscription</div>
+        </div>
+        <div className="sub-box">
+          <div className="sub-top">
+            <p className="sub-header-paid">Premium</p>
+            <div className="sub-price">
+              <h1>$15</h1>
+              <p>/month</p>
+            </div>
+            <br />
+          </div>
+          <ul>
+            <li>
+              <img src="images/check-brown.svg" /> <p>Access to jobs</p>
+            </li>
+            <li>
+              <img src="images/check-brown.svg" /> <p>Track hours</p>
+            </li>
+            <li>
+              <img src="images/check-brown.svg" /> <p>Recieve feedback</p>
+            </li>
+            <li>
+              <img src="images/check-brown.svg" />{" "}
+              <p>Early access to listings</p>
+            </li>
+            <li>
+              <img src="images/check-brown.svg" /> <p>High priority posts</p>
+            </li>
+          </ul>
+          <div className="sub-button">Choose Subscription</div>
+        </div>
+      </section>
+      <section className="sponsors">
+        <h1>Sponsors</h1>
+        <div>
+          <img src="images/airbnb.svg" alt="logo" />
+          <img src="images/yamaha.svg" alt="logo" />
+          <img src="images/soundcloud.svg" alt="logo" />
+          <img src="images/underarmour.svg" alt="logo" />
         </div>
       </section>
       <section className="footer">
